@@ -1,0 +1,17 @@
+.chart {
+  margin: 2rem;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.chartTitle {
+  margin-bottom: 2rem;
+  font-size: 1.8em;
+}
+
+@media screen and (max-width: 76.8rem) {
+  .chart {
+    margin: 2rem 3rem;
+  }
+}

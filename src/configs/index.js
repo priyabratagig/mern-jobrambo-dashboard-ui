@@ -1,0 +1,1 @@
+export { HOME, PAYMENT, ANALYTICS, RECRUITS, PROFILE, APP_HOME } from './routes.config'

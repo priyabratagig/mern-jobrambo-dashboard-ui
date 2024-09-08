@@ -1,0 +1,78 @@
+.sidebar {
+  height: calc(100vh - 5rem);
+  background-color: rgb(252, 252, 252);
+  position: sticky;
+  top: 5rem;
+  -webkit-box-shadow: 0rem 0rem 1.5rem -1rem rgba(0, 0, 0, 0.75);
+  box-shadow: 0rem 0rem 1.5rem -1rem rgba(0, 0, 0, 0.75);
+}
+
+.sidebarWrapper {
+  padding: 2rem;
+  color: #555;
+}
+
+.sidebarWrapper.hide {
+  width: 0rem;
+  padding: 0rem;
+  visibility: collapse;
+}
+
+.sidebarMenu {
+  margin-bottom: 1rem;
+}
+
+.sidebarTitle {
+  font-size: 1.3rem;
+  color: rgb(187, 186, 186);
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.sidebarListItem {
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.active > li,
+.sidebarListItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.sidebarIcon {
+  margin-right: 0.5rem;
+  font-size: 2em !important;
+}
+
+.toggleSideBar {
+  position: absolute;
+  top: 0rem;
+  right: -3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #f3f3f3;
+  -webkiit-box-shadow: inherit;
+  box-shadow: inherit;
+  border: 0.1rem solid #d6d1d1;
+}
+
+.toggleSideBar > input {
+  display: none;
+}
+
+.toggleSideBar > input:checked + label {
+  display: none;
+}
+
+@media screen and (min-width: 48em) {
+  .toggleSideBar {
+    display: none;
+  }
+}

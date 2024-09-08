@@ -1,0 +1,6 @@
+export const HOME = '/dashboard/'
+export const ANALYTICS = '/dashboard/analytics'
+export const RECRUITS = '/dashboard/recruits'
+export const PAYMENT = '/dashboard/payment'
+export const PROFILE = '/profile'
+export const APP_HOME = '/'

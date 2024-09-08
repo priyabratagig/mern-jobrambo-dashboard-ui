@@ -1,0 +1,40 @@
+/* index.css */
+@import url("assets/fonts/SourceCodePro.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+div[data-content],
+div[data-content] * {
+  margin: initial;
+  padding: initial;
+  box-sizing: initial;
+  font-size: 12px;
+  border: initial;
+  outline: initial;
+  list-style: initial;
+  text-decoration: initial;
+  color: initial;
+  box-sizing: initial;
+}
+
+:root,
+html {
+  font-family: Source Code Pro;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
